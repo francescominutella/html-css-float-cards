@@ -1,8 +1,8 @@
 /* debug */
 /* visualisation_space */
-.dbg .col{
+/* .dbg .col{
     border: 2px solid black;
-}
+} */
 
 /* utility */
 *{
@@ -26,7 +26,8 @@ body{
     content: "";
     display: table;
     clear: both;
-} 
+}
+
 /* header */
 header{
     padding: 2rem;
@@ -47,16 +48,18 @@ header{
 .card .col{
     float: left;
     width: calc(100% / 3);
-    padding: 1rem;
+    padding: 0;
     display: inline-block;
     margin: 0;
     /* no_margin_bcs_affect_width */
 }
 .data{
     display: inline-block;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    padding-top: 10px;
 }
 .card .col img{
-    height: 80px;
+    height: 100px;
 }
-
 
