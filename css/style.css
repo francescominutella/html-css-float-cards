@@ -13,4 +13,15 @@ body{
     max-width: 1170px;
     /* convention_measures */
 }
+/* header */
+header{
+    padding: 2rem;
+    margin: 1.5rem;
+}
+.title{
+    margin-bottom: 2rem;
+}
+
+
+
 /* main */
