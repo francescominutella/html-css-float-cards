@@ -43,6 +43,7 @@ p{
 /* main */
 .sect_left_col .col{
     float: left;
-    width: calc(100% / 6);
+    width: calc(100% / 3);
+    padding: 1rem;
+    /* no_margin_bcs_affect_width */
 }
-
