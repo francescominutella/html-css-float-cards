@@ -1,7 +1,6 @@
 /* debug */
 /* visualisation_space */
 .dbg .col{
-    height: 80px;
     background-color: blueviolet;
     border: 2px solid black;
 }
@@ -46,4 +45,7 @@ p{
     width: calc(100% / 3);
     padding: 1rem;
     /* no_margin_bcs_affect_width */
+}
+.sect_left_col .col img{
+    height: 80px;
 }
