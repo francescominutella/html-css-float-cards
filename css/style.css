@@ -1,7 +1,6 @@
 /* debug */
 /* visualisation_space */
 .dbg .col{
-    background-color: blueviolet;
     border: 2px solid black;
 }
 
@@ -49,3 +48,11 @@ p{
 .sect_left_col .col img{
     height: 80px;
 }
+.list{
+    list-style: none
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+} 
