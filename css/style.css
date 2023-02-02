@@ -1,27 +1,45 @@
+/* debug */
+/* visualisation_space */
+.dbg .col{
+    height: 80px;
+    width: 200px;
+    background-color: blueviolet;
+    border: 2px solid black;
+}
+
 /* utility */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     font-family:'Fredoka', sans-serif;
 }
+
     /* utility_center_main */
 .container{
     margin: auto;
     max-width: 1170px;
     /* convention_measures */
 }
+
 /* header */
 header{
     padding: 2rem;
     margin: 1.5rem;
 }
+
 .title{
     margin-bottom: 2rem;
+    text-align: center;
 }
 
-
+p{
+    margin-bottom: 2rem;
+    text-align: center;
+}
 
 /* main */
+
