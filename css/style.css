@@ -1,0 +1,16 @@
+/* utility */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+    /* utility_center_main */
+.container{
+    margin: auto;
+    max-width: 1170px;
+    /* convention_measures */
+}
+/* main */
