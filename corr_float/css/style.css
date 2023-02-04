@@ -1,19 +1,38 @@
-/* utilities */
+/* utility */
 *{
     margin: 0;
     padding:0;
     box-sizing: border-box;
 }
-    /* setting_DEBUG */
-.debug > #app_header{
+    /* region_DEBUG */
+.dbg > #app_header{
     height:200px;
 	background-color: black;
 }
-.debug > #app_main{
+.dbg > #app_main{
     height:800px;
-	background-color: darkblue;
+	background-color: rgb(4, 153, 207);
 }
-.debug > #app_footer{
+.dbg > #app_footer{
     height:200px;
 	background-color: black;
+}
+.dbg .col4{
+    height: 120px;
+    background-color: yellow;
+}
+    /* endregion_utility*/
+
+/* region_main */
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+
+.col4{
+    float: left;
+    width: calc((100% / 12) * 4);
+    /* to see column setting padding*/
+    /* and create dbg rule */
+    padding: 0 1rem;
 }

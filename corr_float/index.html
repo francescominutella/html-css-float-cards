@@ -1,21 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body class="dbg">
-    
-    <header id="app_header"></header>
-    <!-- /#app_header -->
-    <main id="app_main"></main>
-    <!-- /#app_main -->
-    <footer id="app_footer"></footer>
-    <!-- /#app_footer -->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Team</title>
+        <link rel="stylesheet" href="../corr_float/css/style.css">
+    </head>
+    <body class="dbg">
+
+        <header id="app_header"></header>
+        <!-- /#app_header -->
+
+        <main id="app_main">
+
+            <!-- when I have a FLOAT elements -->
+            <!-- to remind that their container -->
+            <!-- must have CLEARFIX class -->
+            <!-- !!!NO CONFUSE!!! -->
+            <!-- the container is NOT: <div class="container"> -->
+            <!-- but the ROW: <div class="row"> -->
+            <!-- 'cause the cards in layout -->
+            <!-- "make the rows" (illusion grid), and so:-->
+            <!-- they will float in ROW container -->
+
+            <div class="container"><!-- centering with margin: auto; -->
+                <!-- row1 -->
+                <div class="row"><!-- enterFLOATelements -->
+                    <div class="col4"><!-- where 4 means 4/12's page -->
+                        <div class="card"><!-- FLOATel with inside other FLOTel -->
+                        </div>
+                    </div>
+                </div>
+                <!-- row2 -->
+                <div class="row"><!-- enterFLOATelements -->
+                    <div class="col4"><!-- where 4 means 4/12's page -->
+                        <div class="card"><!-- FLOATel with inside other FLOTel -->
+                        </div>
+                    </div>
+                </div>
+                <!-- row3 -->
+                <div class="row"><!-- enterFLOATelements -->
+                    <div class="col4"><!-- where 4 means 4/12's page -->
+                        <div class="card"><!-- FLOATel with inside other FLOTel -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+        </main>
+        <!-- /#app_main -->
+        <footer id="app_footer"></footer>
+        <!-- /#app_footer -->
 
 
-</body>
+    </body>
 </html>
