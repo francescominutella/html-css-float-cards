@@ -69,7 +69,6 @@
     clear:both;
 }
 
-
 .col4
 {
     float: left;
@@ -82,4 +81,10 @@
 .left
 {
     float:left;
+}
+
+.data{
+    padding: 1rem;
+    margin: 1rem;
+    float: left;
 }
