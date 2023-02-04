@@ -1,0 +1,19 @@
+/* utilities */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+    /* setting_DEBUG */
+.debug > #app_header{
+    height:200px;
+	background-color: black;
+}
+.debug > #app_main{
+    height:800px;
+	background-color: darkblue;
+}
+.debug > #app_footer{
+    height:200px;
+	background-color: black;
+}
